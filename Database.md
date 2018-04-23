@@ -47,5 +47,13 @@ foreign key (pantsID) references Category(CategoryID),
 
 );
 
+insert into dbo.users
+valus (1,'pa$$word','Dom');
 
+Insert into dbo.Category
+values(1,'Shirts',1),
+                (2,'Red',1),
+                (3,'blue with stripes',1),
+                (4,'pink',1),
+                (5,'green',1);
 
